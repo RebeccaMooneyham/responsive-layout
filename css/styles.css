@@ -10,8 +10,17 @@ body {
   width: auto;
 }
 
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
 h1, h2, h3, p, li {
   text-align: center;
+}
+
+h1, h2 {
+  color: #2572aa;
 }
 
 p {
@@ -54,6 +63,10 @@ nav a {
   font-size: 1.20em;
 }
 
+a:hover {
+  color: #2572aa;
+}
+
 header img {
   width: 250px;
   height: 153px;
@@ -79,6 +92,20 @@ h3 {
   padding-top: 1.25em;
   padding-bottom: .75em;
   font-weight: 500;
+}
+
+/* ---- Thank You ---- */
+.thank-you {
+  background-color: #fff;
+  padding: 1em 1em;
+  border-top: 4px solid #808080;
+  width: 95%;
+  margin: auto;
+}
+
+.thank-you img {
+  max-width: 60%;
+  margin-bottom: 1.5em;
 }
 
 /* ---- Footer ---- */
@@ -118,6 +145,10 @@ footer {
   text-transform: uppercase;
   color: #000;
   display: block;
+}
+
+.top a:hover {
+  color: #2572aa;
 }
 
 .name {
