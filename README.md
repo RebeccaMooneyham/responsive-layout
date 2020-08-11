@@ -1,1 +1,1 @@
-Mobile first responsive layout
+Treehouse Techdegree project: Mobile-first Responsive Layout. I built a responsive, mobile-first website using HTML and CSS. Media queries were used to adjust for small, medium, and large screen sizes.
